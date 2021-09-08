@@ -4,6 +4,6 @@
 
 read -p "Domain name? " domain
 
-curl -I $domain
+curl $domain
 
 
